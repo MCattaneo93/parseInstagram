@@ -24,7 +24,7 @@ public class ParseApplication extends Application {
         Parse.initialize(new Parse.Configuration.Builder(this)
                 .applicationId("cattaneo-instagram") // should correspond to APP_ID env variable
                 .clientKey("CodepathInstagramMoveFast")  // set explicitly unless clientKey is explicitly configured on Parse server
-                .server("http://cattaneo-instagram.herokuapp.com/parse").build());
+                .server("https://cattaneo-instagram.herokuapp.com/parse").build());
     }
 }
 
